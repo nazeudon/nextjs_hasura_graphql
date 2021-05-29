@@ -83,7 +83,7 @@ export const Layout: VFC<Props> = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          Inspired by{' '}
+          Powered by{' '}
           <span className="h-4 ml-2">
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
