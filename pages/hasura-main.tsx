@@ -7,7 +7,10 @@ import { GetUsersQuery } from '../types/generated/graphql'
 
 const FetchMain: VFC = () => {
   const { data, error } = useQuery<GetUsersQuery>(GET_USERS, {
-    fetchPolicy: 'network-only',
+    // fetchPolicy: 'network-only', //毎回更新。通信が終わるまで画面に何も出ない
+    fetchPolicy: 'cache-and-network', //最初cacheを表示。通信をして新規があれば追加で表示
+    // fetchPolicy: 'cache-first', // 最初だけ通信。新規でデータが作成されてたとしても読み込めない(default)
+    // fetchPolicy: 'no-cache', //そもそもcacheが作られない
   })
 
   if (error)
