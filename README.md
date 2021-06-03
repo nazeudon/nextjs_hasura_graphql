@@ -12,6 +12,10 @@ This is a practice application for linking Next.js and Hasura (GraphQL). The mai
 - [Apollo Client](https://www.apollographql.com/)
 - [GraphQL Code Generator](https://www.graphql-code-generator.com/)
 - [Heroicons](https://heroicons.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Next page tester](https://github.com/toomuchdesign/next-page-tester#readme)
+- [Mock Service Worker](https://mswjs.io/)
 
 ## Getting Started
 
