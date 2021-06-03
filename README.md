@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## About This App
+
+This is a practice application for linking Next.js and Hasura (GraphQL). The main technology stack used is as follows:
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Hasura(GraphQL)](https://hasura.io/)
+- [Apollo Client](https://www.apollographql.com/)
+- [GraphQL Code Generator](https://www.graphql-code-generator.com/)
+- [Heroicons](https://heroicons.com/)
+
 ## Getting Started
 
 First, run the development server:
